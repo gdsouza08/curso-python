@@ -4,4 +4,4 @@ altura = float(input("Digite sua altura: "))
 
 imc = peso / (altura * altura)
 
-print("Bem vindo", nome, ", Seu IMC é ", imc)
+print(f"Bem vindo {nome}. Seu IMC é {imc:.2f}")
